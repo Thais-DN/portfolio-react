@@ -1,7 +1,7 @@
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils/utils";
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
@@ -29,4 +29,3 @@ const Contact = () => {
   );
 };
 
-export default Contact;

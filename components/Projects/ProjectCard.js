@@ -1,7 +1,7 @@
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils/utils";
 
-const ProjectCard = ({
+export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
@@ -34,4 +34,3 @@ const ProjectCard = ({
   );
 };
 
-export default ProjectCard;

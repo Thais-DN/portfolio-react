@@ -1,7 +1,8 @@
 import styles from "./About.module.css";
+import Image from "next/image";
 import { getImageUrl } from "../../utils/utils";
 
-const About = () => {
+export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>Sobre</h2>
@@ -44,5 +45,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;
