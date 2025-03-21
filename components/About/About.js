@@ -1,5 +1,4 @@
 import styles from "./About.module.css";
-import Image from "next/image";
 import { getImageUrl } from "../../utils/utils";
 
 export const About = () => {
